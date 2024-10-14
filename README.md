@@ -1,8 +1,8 @@
-[![License](https://img.shields.io/github/license/heinrichreimer/action-github-changelog-generator.svg?style=flat-square)](LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/heinrichreimer/action-github-changelog-generator.svg?style=flat-square)](https://github.com/heinrichreimer/action-github-changelog-generator/commits)
-[![Latest tag](https://img.shields.io/github/tag/heinrichreimer/action-github-changelog-generator.svg?style=flat-square)](https://github.com/heinrichreimer/action-github-changelog-generator/releases)
-[![Issues](https://img.shields.io/github/issues/heinrichreimer/action-github-changelog-generator.svg?style=flat-square)](https://github.com/heinrichreimer/action-github-changelog-generator/issues)
-[![Pull requests](https://img.shields.io/github/issues-pr/heinrichreimer/action-github-changelog-generator.svg?style=flat-square)](https://github.com/heinrichreimer/action-github-changelog-generator/pulls)
+[![License](https://img.shields.io/github/license/janheinrichmerker/action-github-changelog-generator.svg?style=flat-square)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/janheinrichmerker/action-github-changelog-generator.svg?style=flat-square)](https://github.com/janheinrichmerker/action-github-changelog-generator/commits)
+[![Latest tag](https://img.shields.io/github/tag/janheinrichmerker/action-github-changelog-generator.svg?style=flat-square)](https://github.com/janheinrichmerker/action-github-changelog-generator/releases)
+[![Issues](https://img.shields.io/github/issues/janheinrichmerker/action-github-changelog-generator.svg?style=flat-square)](https://github.com/janheinrichmerker/action-github-changelog-generator/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/janheinrichmerker/action-github-changelog-generator.svg?style=flat-square)](https://github.com/janheinrichmerker/action-github-changelog-generator/pulls)
 
 # ✏️ action-github-changelog-generator
 
@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "✏️ Generate release changelog"
-        uses: heinrichreimer/action-github-changelog-generator@v2.3
+        uses: janheinrichmerker/action-github-changelog-generator@v2.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }} 
 ```
